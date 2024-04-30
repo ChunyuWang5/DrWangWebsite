@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Files -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Catamaran|Lato|Montserrat|Nunito|PT+Sans|Playfair+Display|Raleway|Roboto|Questrial|Quicksand|Source+Sans+Pro"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- Page Title -->
+    <title>Chunyu Wang Research - News</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="news.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+    <!-- Hamburger menu -->
+    <div class="mobileShow">
+        <div style="background-color:#f5f7f8; padding: 20px 0px;">
+            <div class="hamburger-nav">
+                <div style="width:100%; background-color:#f5f7f8; display:flex; align-items:center;">
+                    <a id="logo" href="index.html" class="no-hover"
+                        style="margin-left: auto; margin-right:auto; padding:0px;">
+                        <h1 class="logo-text-main-mobile">C.WANG</h1>
+                        <div style="float: left; margin-left: 5px;">
+                            <h4 class="logo-text-rest-mobile">Research</h4>
+                            <h4 class="logo-text-rest-mobile">Lab</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- Navigation links (hidden by default) -->
+                <div id="navLinks">
+                    <a href="index.html" class="hamburger-active">Home</a>
+                    <a href="research.html">Research</a>
+                    <a href="research_highlights.html">Research Highlights</a>
+                    <a href="funding.html">Funding</a>
+                    <a href="people.html">People</a>
+                    <a href="other_people.html">Collaborators</a>
+                    <a href="news.html">News</a>
+                    <a href="publications.html">Publications</a>
+                    <a href="lab-life.html">Lab Life</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="joinus.html">Join Us!</a>
+                </div>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <a href="javascript:void(0);" class="icon" onclick="hamburgerFunction()">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Navigation Menu -->
+    <div class="mobileHide">
+        <nav class="nav">
+            <a id="logo" href="index.html" class="no-hover">
+                <h1 class="logo-text-main">C.WANG</h1>
+                <div style="float: left; margin-left: 5px;">
+                    <h4 class="logo-text-rest">Research</h4>
+                    <h4 class="logo-text-rest">Lab</h4>
+                </div>
+            </a>
+            <a href="index.html" class="nav-a">Home</a>
+            <a href="research.html" class="nav-a">Research</a>
+            <a href="research_highlights.html" class="nav-a">Research Highlights</a>
+            <a href="funding.html" class="nav-a">Funding</a>
+            <div class="dropdown">
+                <a href="people.html" class="nav-a dropdown">People</a>
+                <div class="dropdown-content">
+                    <a href="people.html">Lab Members</a>
+                    <a href="other_people.html">Collaborators</a>
+                </div>
+            </div>
+            <a href="news.html" class="nav-a nav-a-active">News</a>
+            <a href="publications.html" class="nav-a">Publications</a>
+            <a href="lab-life.html" class="nav-a">Lab Life</a>
+            <a href="contact.html" class="nav-a">Contact</a>
+            <a href="joinus.html" class="nav-a">Join Us!</a>
+        </nav>
+    </div>
+
+    <!-- Banner -->
+    <div class="banner-container">
+        <div class="banner-img" style="background-image: url('images/IC63.jpg');"></div>
+        <div class="banner-text">NEWS</div>
+        <div class="banner-caption">IC63</div>
+    </div>
+
+    <div class="page-content">
+
+        <!-- News content -->
+        <div class="center-content" id="news-content">
+            <!-- gets autofilled by displayNews() function -->
+        </div>
+
+    </div>
+
+    <!-- Javascript/JQuery for loading news data into the page -- Add news information into data.news object -->
+    <script>
+        function hamburgerFunction() {
+            var x = document.getElementById("navLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+
+        // function that gets the news from the news.js file and generates the boxes with filled in information 
+        function displayNews() {
+            var $news_box = $('<div/>').addClass('news-box')
+            $news_box.append($('<h3 class="">Title</h3>').addClass('news-title'))
+            $news_box.append($('<div><span>Posted On: </span><span id="date"></span></div>'))
+            $news_box.append($('<img src="" class="news-img"/>'))
+            $news_box.append($('<p></p>').addClass("news-description"))
+            // $("#news-content").append($news_box);
+
+            for (i = 0; i < data.news.length; i++) {
+                console.log("i " + i);
+                var new_news = $news_box.clone();
+                // add the news title 
+                new_news.find('.news-title').text(data.news[i].title)
+                // add the news posted date 
+                new_news.find('#date').text(data.news[i].date)
+                // add an id to the news for linking from the homepage via news.html#news_0, news.html#news_1, news.html#news_2, etc.  
+                new_news.find(".news-title").attr('id', "news_" + i)
+                // add an image, if there is one 
+                if (data.news[i].img_src != '') {
+                    new_news.find('.news-img').attr('src', data.news[i].img_src)
+                }
+                // add a description, if one exists 
+                if (data.news[i].description != '') {
+                    new_news.find('.news-description').text(data.news[i].description)
+                }
+                // add a link, if one exists
+                if (data.news[i].read_more != '') {
+                    new_news.append($('<a href="" target="_blank" class="news-link"><button type="button" class="btn read-article-btn">Read More</button></a>'))
+                    new_news.find('.news-link').attr('href', data.news[i].read_more)
+                }
+                $('#news-content').append(new_news);
+            }
+        }
+        displayNews();
+    </script>
+
+
+</body>
+
+</html>

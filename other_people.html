@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Files -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Catamaran|Montserrat|Nunito|Open+Sans|PT+Sans|Playfair+Display|Questrial|Quicksand"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- Page Title -->
+    <title>Chunyu Wang Research - Other People</title>
+
+</head>
+
+<body>
+    <!-- Hamburger menu -->
+    <div class="mobileShow">
+        <div style="background-color:#f5f7f8; padding: 20px 0px;">
+            <div class="hamburger-nav">
+                <div style="width:100%; background-color:#f5f7f8; display:flex; align-items:center;">
+                    <a id="logo" href="index.html" class="no-hover"
+                        style="margin-left: auto; margin-right:auto; padding:0px;">
+                        <h1 class="logo-text-main-mobile">C.WANG</h1>
+                        <div style="float: left; margin-left: 5px;">
+                            <h4 class="logo-text-rest-mobile">Research</h4>
+                            <h4 class="logo-text-rest-mobile">Lab</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- Navigation links (hidden by default) -->
+                <div id="navLinks">
+                    <a href="index.html" class="hamburger-active">Home</a>
+                    <a href="research.html">Research</a>
+                    <a href="research_highlights.html">Research Highlights</a>
+                    <a href="funding.html">Funding</a>
+                    <a href="people.html">People</a>
+                    <a href="other_people.html">Collaborators</a>
+                    <a href="news.html">News</a>
+                    <a href="publications.html">Publications</a>
+                    <a href="lab-life.html">Lab Life</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="joinus.html">Join Us!</a>
+                </div>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <a href="javascript:void(0);" class="icon" onclick="hamburgerFunction()">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Navigation Menu -->
+    <div class="mobileHide">
+        <nav class="nav">
+            <a id="logo" href="index.html" class="no-hover">
+                <h1 class="logo-text-main">C.WANG</h1>
+                <div style="float: left; margin-left: 5px;">
+                    <h4 class="logo-text-rest">Research</h4>
+                    <h4 class="logo-text-rest">Lab</h4>
+                </div>
+            </a>
+            <a href="index.html" class="nav-a nav-a-active">Home</a>
+            <a href="research.html" class="nav-a">Research</a>
+            <a href="research_highlights.html" class="nav-a">Research Highlights</a>
+            <a href="funding.html" class="nav-a">Funding</a>
+            <div class="dropdown">
+                <a href="people.html" class="nav-a dropdown nav-a-active">People</a>
+                <div class="dropdown-content">
+                    <a href="people.html">Lab Members</a>
+                    <a href="other_people.html">Collaborators</a>
+                </div>
+            </div>
+            <a href="news.html" class="nav-a">News</a>
+            <a href="publications.html" class="nav-a">Publications</a>
+            <a href="lab-life.html" class="nav-a">Lab Life</a>
+            <a href="contact.html" class="nav-a">Contact</a>
+            <a href="joinus.html" class="nav-a">Join Us!</a>
+        </nav>
+    </div>
+
+    <!-- Banner -->
+    <div class="banner-container">
+        <!-- <div class="banner-img"></div> -->
+        <div class="banner-img" style="background-image: url('images/rosette.jpg');"></div>
+        <div class="banner-text">PEOPLE</div>
+    </div>
+
+    <div class="page-content">
+        <!-- Scroll buttons -->
+        <a href="#oldmembers" class="link-button" style="">Go to Past Members <span style="font-size: 16x;"><i
+                    class="fas fa-angle-down"></i></span></a>
+
+        <!-- collaborators -->
+        <div id="collaborators" class="container" style="margin-top: 20px;">
+            <h4 style="font-family: 'Quicksand', sans-serif; text-align: center;">Collaborators</h4>
+            <h5 style="font-family: 'Quicksand', sans-serif; ">RPI Collaborators</h5>
+            <p>
+                <b>Robert Linhardt</b>, Rensselaer Polytechnic Institute - Glycobiology
+            </p>
+            <p>
+                <b>Jonathan Dordick</b>, Rensselaer Polytechnic Institute - Cell-based drug discovery
+                <a href="https://enzymes.che.rpi.edu/" target="_blank" class="small">Website</a>
+            </p>
+            <p>
+                <b>Scott Forth</b>, Rensselaer Polytechnic Institute - Single molecule fluorescence
+                <a href="http://homepages.rpi.edu/~forths/" target="_blank" class="small">Website</a>
+            </p>
+            <p>
+                <b>Jennifer Hurley</b>, Rensselaer Polytechnic Institute - Circadian rhythm
+                <a href="https://homepages.rpi.edu/~hurlej2/research.html" target="_blank" class="small">Website</a>
+            </p>
+            <p>
+                <b>Marvin Bentley</b>, Rensselaer Polytechnic Institute - vesicle transport in neurons
+                <a href="https://science.rpi.edu/biology/faculty/marvin-bentley" target="_blank"
+                    class="small">Website</a>
+            </p>
+            <p>
+                <b>Leo Wan</b>, Rensselaer Polytechnic Institute - Left-right symmetry
+                <a href="http://homepages.rpi.edu/~wanq/" target="_blank" class="small">Website</a>
+            </p>
+            <!-- Add new RPI collaborators here -->
+            <h5 style="font-family: 'Quicksand', sans-serif; margin-top: 30px;">New York State Collaborators</h5>
+            <p>
+                <b>Nikolaos Robakis</b>, Mount Sinai - Alzheimer’s disease
+                <a href="http://labs.neuroscience.mssm.edu/robakis-lab/" target="_blank" class="small">Website</a>
+            </p>
+            <p>
+                <b>David Eliezer</b>, Weill Cornell Medical College - IDPs in neurodegeneration
+                <a href="http://chembio.triiprograms.org/faculty-research/faculty-directory/david-eliezer-phd/"
+                    target="_blank" class="small">Website</a>
+            </p>
+            <p>
+                <b>Ding Xu</b>, University at Buffalo - Glycobiology
+                <!-- <a href="" target="_blank" class="small">Website</a> -->
+            </p>
+            <p>
+                <b>Brian Callahan</b>, Binghamton University - Hedgehog autoprocessing
+                <a href="https://bcbiocatalysis.org/" target="_blank" class="small">Website</a>
+            </p>
+            <p>
+                <b>Sozanne Solmaz</b>, Binghamton University - Microtubule transport
+                <a href="http://chemiris.chem.binghamton.edu/SOLMAZ/solmaz.html" target="_blank"
+                    class="small">Website</a>
+            </p>
+            <p>
+                <b>Yingkai Zhang</b>, New York University - Computational biology
+                <a href="https://www.nyu.edu/projects/yzhang/" target="_blank" class="small">Website</a>
+            </p>
+            <p>
+                <b>Stewart Loh</b>, Upstate Medical University - p53
+                <!-- <a href="" target="_blank" class="small">Website</a> -->
+            </p>
+            <p>
+                <b>Yue-Ming Li</b>, Memorial Sloan Kettering Center - Gamma-secretase
+                <a href="https://www.mskcc.org/research/ski/labs/yueming-li/yueming-li-lab-projects" target="_blank"
+                    class="small">Website</a>
+            </p>
+            <!-- Add new NY collaborators here  -->
+            <h5 style="font-family: 'Quicksand', sans-serif; margin-top: 30px;">U.S. Collaborators</h5>
+            <p>
+                <b>Jian Liu</b>, University of North Carolina - Glycobiology
+                <!-- <a href="" target="_blank" class="small">Website</a> -->
+            </p>
+            <p>
+                <b>Lianchun Wang</b>, University of South Florida - Glycobiology
+                <!-- <a href="" target="_blank" class="small">Website</a> -->
+            </p>
+            <p>
+                <b>Jianhan Chen</b>, University of Massachusetts Amherst - Computational biology
+                <a href="http://people.chem.umass.edu/jchenlab/" target="_blank" class="small">Website</a>
+            </p>
+            <p>
+                <b>Gal Bitan</b>, University of California Los Angeles - Alzheimer’s disease
+                <a href="https://bioscience.ucla.edu/people/gal-bitan/" target="_blank" class="small">Website</a>
+            </p>
+            <p>
+                <b>Angel Garcia</b>, Los Alamos National Labs - Computational biology
+                <!-- <a href="" target="_blank" class="small">Website</a> -->
+            </p>
+            <!-- Add new U.S. collaborators here -->
+            <h5 style="font-family: 'Quicksand', sans-serif; margin-top: 30px;">International Collaborators</h5>
+            <p>
+                <b>Guy Lippens</b>, Toulouse, France - Tau protein
+                <!-- <a href="" target="_blank" class="small">Website</a> -->
+            </p>
+            <p>
+                <b>Iban Ubarretxena-Belandia</b>, Biofisika Institute (UPV/EHU, CSIC), Leioa, Spain, - Intramembrane
+                proteolysis
+                <!-- <a href="" target="_blank" class="small">Website</a> -->
+            </p>
+            <p>
+                <b>Thomas Shrader</b>, University of Duisburg-Essen, Essen, Germany, - Organic and Bio-Chemistry of
+                tweezer
+                <a href="https://www.uni-due.de/chemie/ak_schrader/index" target="_blank" class="small">Website</a>
+            </p>
+            <p>
+                <b>Xiaoyu Li</b>, Hong Kong University - DNA encoded library
+                <!-- <a href="" target="_blank" class="small">Website</a> -->
+            </p>
+            <!-- Add new international collaborators here  -->
+        </div>
+
+        <!-- Past Members -->
+        <div id="oldmembers" class="container" style="margin-top: 100px;">
+            <h4 style="font-family: 'Quicksand', sans-serif; text-align: center;">Past Lab Members</h4>
+            <!-- Past Postdocs -->
+            <h5 class="header-quicksand" style="margin-top: 30px;">Past Postdoc</h5>
+            <div class="row">
+                <!-- one person -->
+                <div class="col-md-2 other-people-container">
+                    <img src="images/Jackie.jpeg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Jing (Jackie) Zhao</h6>
+                    <p class="other-people-info"><em>Past: Postdoc</em></p>
+                    <p class="other-people-info"><em>2018-2020</em></p>
+                    <div class="other-people-overlay">
+                        <p class="small">Jackie is now a full professor at China Agriculture University in Beijing,
+                            China.</p>
+                        <p class="small"><em>(Click for a link to his page)</em></p>
+                    </div>
+                </div>
+                <div class="col-md-2 other-people-container">
+                    <img src="images/Yuan.jpeg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Yuanyuan Xiao</h6>
+                    <p class="other-people-info"><em>Past: Research associate</em></p>
+                    <p class="other-people-info"><em>2018-2020</em></p>
+                    <div class="other-people-overlay">
+                        <p class="small">Yuanyuan is now a senior scientist at Eurofin.</p>
+                        <p class="small"><em>(Click for a link to his page)</em></p>
+                    </div>
+                </div>
+                <div class="col-md-2 other-people-container">
+                    <img src="images/Jie.jpeg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Jie Fang</h6>
+                    <p class="other-people-info"><em>Past: Research associate</em></p>
+                    <p class="other-people-info"><em>Jan.- July 2020</em></p>
+                    <div class="other-people-overlay">
+                        <p class="small">Jie is now an assistant professor at University of Michigan at Dearborn.</p>
+                        <p class="small"><em>(Click for a link to his page)</em></p>
+                    </div>
+                </div>
+                <div class="col-md-2 other-people-container">
+                    <img src="images/Sherry.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Xinyue (Sherry) Liu</h6>
+                    <p class="other-people-info"><em>Past: Postdoc</em></p>
+                    <p class="other-people-info"><em>2018-2019</em></p>
+                    <div class="other-people-overlay">
+                        <p class="small">Sherry is currently a postdoc at Harvard University.</p>
+                        <p class="small"><em>(Click for a link to his page)</em></p>
+                    </div>
+                </div>
+                <!-- Zhenming -->
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Zhenming Du</h6>
+                    <p class="other-people-info"><em>Past: Postdoc</em></p>
+                    <p class="other-people-info"><em>2007-2012</em></p>
+                    <div class="other-people-overlay">
+                        <p class="small">Zhenming (Jimmy) is now the manager of NMR center at Georgia State University.
+                        </p>
+                        <p class="small"><em>(Click for a link to his page)</em></p>
+                    </div>
+                </div>
+                <!-- another person -->
+                <div class="col-md-2 other-people-container">
+                    <a href="http://en.scms.ustc.edu.cn/2011/0703/c13455a89240/page.htm" target="_blank"><img
+                            src="images/user_icon.jpg" class="person-img-rounded" /></a>
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Yangzhong Liu</h6>
+                    <p class="other-people-info"><em>Past: Postdoc</em></p>
+                    <p class="other-people-info"><em>2005-2006</em></p>
+                    <div class="other-people-overlay">
+                        <p class="small">Yangzhong is now a professor at the University of Science and Technology of
+                            China.</p>
+                        <p class="small"><em>(Click for a link to his page)</em></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Past Graduate Students -->
+            <h5 class="header-quicksand" style="margin-top: 30px;">Past Graduate Students</h5>
+            <div class="row">
+                <!-- one person -->
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Allison Zwarycz</h6>
+                    <p class="other-people-info"><em>Past: Graduate Student (MS)</em></p>
+                    <p class="other-people-info"><em>2016-</em></p>
+                </div>
+                <!-- another person -->
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Andrea Bisson</h6>
+                    <p class="other-people-info"><em>Past: Graduate Student (MS)</em></p>
+                    <p class="other-people-info"><em>2016</em></p>
+                </div>
+                <!-- etc... -->
+                <div class="col-md-2 other-people-container">
+                    <a href="https://vari.vai.org/postdoctoral/meet-the-postdocs/nicolina-clemente/"
+                        target="_blank"><img src="images/user_icon.jpg" class="person-img-rounded" /></a>
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Nicolina Clemente</h6>
+                    <p class="other-people-info"><em>Past: Graduate Student (PhD)</em></p>
+                    <p class="other-people-info"><em>2012-2018</em></p>
+                    <div class="other-people-overlay">
+                        <p class="small">
+                            Nicolina carried out high presssure NMR studies of Aβ mutants (published in Chemical
+                            Communications in 2018) and s
+                            tudied a key topic in the generation of Aβ: how substrate APPTM interacts intramembrane
+                            protease. Her publication
+                            in Scientific Reports in 2018 represents the first study of substrate-intramembrane protease
+                            interaction at atomic
+                            resolution, with important implications for many diseases, such as Alzheimer’s and cancer.
+                            She is currently a
+                            postdoctoral scientist at Van Andel Research Institute, carrying out cryoEM studies of
+                            membrane proteins.
+                        </p>
+                        <p class="small"><em>(Click for a link to her page)</em></p>
+                    </div>
+                </div>
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Jian Xie</h6>
+                    <p class="other-people-info"><em>Past: Graduate Student (PhD)</em></p>
+                    <p class="other-people-info"><em>2011-2015</em></p>
+                    <div class="other-people-overlay">
+                        <p class="small">
+                            Jian Xie studied the relationship between Zinc and Hedgehog signaling and discovered that Zn
+                            diffciency may be
+                            related to Hedgehog activation in cancers. This work was published in JBC and was one of
+                            most viewed papers on
+                            JBC website. Jian then went on to study the mechanism of a special process in Hedgehog
+                            signaling, called Hedgehog
+                            autoprocessing and described a new structural mechanism in a publication in JACS. He is now
+                            a postdoctoral research
+                            associate at Yale University.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">David Rosenman</h6>
+                    <p class="other-people-info"><em>Past: Graduate Student (PhD)</em></p>
+                    <p class="other-people-info"><em>2010-2015</em></p>
+                    <div class="other-people-overlay">
+                        <p class="small">
+                            David was a joint student between Angel Garcia and me. He carried out combined NMR and MD
+                            studies of Aβ, which
+                            provided unprecedented insight into the structure and dynamics of Aβ. He has published a
+                            number of high impact
+                            papers. For example, his 2013 JMB paper (Rosenman, David J., et al. "Aβ monomers transiently
+                            sample oligomer
+                            and fibril-like configurations: ensemble characterization using a combined MD/NMR approach."
+                            Journal of molecular
+                            biology 425.18 (2013): 3338-3359.) has already been cited over 120 times! He is currently a
+                            Protein Characterization Scientist at Eurofins
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Christopher Connors</h6>
+                    <p class="other-people-info"><em>Past: Graduate Student (PhD)</em></p>
+                    <p class="other-people-info"><em>2008-2014</em></p>
+                    <div class="other-people-overlay">
+                        <p class="small">
+                            Chris carried out NMR drug screening for Aβ, and he found that tranilast, an approved drug
+                            in Asia,
+                            can bind to Aβ and promote Aβ fibrillation. This is one of the early examples of drug
+                            discovery in
+                            intrinsically disordered protein (IDP) using a combined MD/NMR approach! He is currently a
+                            Senior Scientist at
+                            Xtal BioStructures Inc.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Wen Chen</h6>
+                    <p class="other-people-info"><em>Past: Graduate Student (PhD)</em></p>
+                    <p class="other-people-info"><em>2007-</em></p>
+                    <div class="other-people-overlay">
+                        <p class="small">
+                            Wen Chen solved the NMR structure of APPTM, an important domain in the generation of Aβ,
+                            resulting in a paper in
+                            Nature Communications. This work establishes a new structural mechanism for several genetic
+                            variants of
+                            Alzheimer’s disease (AD) and has been widely cited, e.g., by the premium AD research website
+                            alzforum. He also
+                            was the first to discover the intramolecular disulfide bond at intein active site, an
+                            excellent study published
+                            in Journal of American Chemical Society. He is currently a research associate at Harvard
+                            Medical School.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Jiajing Liu</h6>
+                    <p class="other-people-info"><em>Past: Graduate Student (PhD)</em></p>
+                    <p class="other-people-info"><em>2006-2010</em></p>
+                    <div class="other-people-overlay">
+                        <p class="small">
+                            Jiajing solved two NMR structures. We shared a strong interest in human health and diseases.
+                            After RPI,
+                            he went on to obtain an MD at Tufts Medical School and is now practising medicine in
+                            Worcester, MA.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Nikolaos Sgourakis</h6>
+                    <p class="other-people-info"><em>Past: Graduate Student (PhD)</em></p>
+                    <p class="other-people-info"><em>2005</em></p>
+                </div>
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Yilin Yan</h6>
+                    <p class="other-people-info"><em>Past: Graduate Student (PhD)</em></p>
+                    <p class="other-people-info"><em>2005-2008</em></p>
+                    <div class="other-people-overlay">
+                        <p class="small">
+                            Yilin was Dr. Wang's first graduate student and he carried out detailed NMR studies of
+                            amyloid β-peptide, a key molecule
+                            in Alzheimer’s disease. His first paper on the dynamics of Aβ, also the first paper of my
+                            lab, has been cited over 200 times now.
+                            He obtained his PhD in four years, with a total of 8 publications, including papers in
+                            Nature Medicine,
+                            Journal of American Chemical Society. He is currently Head of Protein Science in the newly
+                            established Pfizer Asia Discovery Labs
+                            in Shanghai.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Past Technicians and Research Associates -->
+            <h5 class="header-quicksand" style="margin-top: 30px;">Technicians and Research Associates</h5>
+            <div class="row">
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Eric Gamache</h6>
+                    <p class="other-people-info"><em>Past: Research Associate</em></p>
+                    <p class="other-people-info"><em>2005-2009</em></p>
+                </div>
+            </div>
+            <!-- Past Undergraduate Students -->
+            <h5 class="header-quicksand" style="margin-top: 30px;">Past Undergraduate Students</h5>
+            <div class="row">
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Zahabiya Campwala</h6>
+                    <p class="other-people-info"><em>Past: Undergrad Student</em></p>
+                    <p class="other-people-info"><em>2019</em></p>
+                </div>
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Emma Spiegler</h6>
+                    <p class="other-people-info"><em>Past: Undergrad Student</em></p>
+                    <p class="other-people-info"><em>2015-2016</em></p>
+                </div>
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Virginia Zu</h6>
+                    <p class="other-people-info"><em>Past: Undergrad Student</em></p>
+                    <p class="other-people-info"><em>2015-2016</em></p>
+                </div>
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Zhongqiang Lin</h6>
+                    <p class="other-people-info"><em>Past: Undergrad Student</em></p>
+                    <p class="other-people-info"><em>2014-2018</em></p>
+                </div>
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Michelle Scotile</h6>
+                    <p class="other-people-info"><em>Past: Undergrad Student</em></p>
+                    <p class="other-people-info"><em>2013-2015</em></p>
+                </div>
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Emiley Tou</h6>
+                    <p class="other-people-info"><em>Past: Undergrad Student</em></p>
+                    <p class="other-people-info"><em>2013-</em></p>
+                </div>
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Benjamin Daniels</h6>
+                    <p class="other-people-info"><em>Past: Undergrad Student</em></p>
+                    <p class="other-people-info"><em>2011-</em></p>
+                </div>
+
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Amanda Labuza</h6>
+                    <p class="other-people-info"><em>Past: Undergrad Student</em></p>
+                    <p class="other-people-info"><em>2010</em></p>
+                </div>
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Cate Harvey</h6>
+                    <p class="other-people-info"><em>Past: Undergrad Student</em></p>
+                    <p class="other-people-info"><em>2009</em></p>
+                </div>
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Patricia Shen</h6>
+                    <p class="other-people-info"><em>Past: Undergrad Student</em></p>
+                    <p class="other-people-info"><em>2008-2011</em></p>
+                </div>
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Wendy Ho</h6>
+                    <p class="other-people-info"><em>Past: Undergrad Student</em></p>
+                    <p class="other-people-info"><em>2009-2011</em></p>
+                </div>
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Sheela Rao</h6>
+                    <p class="other-people-info"><em>Past: Undergrad Student</em></p>
+                    <p class="other-people-info"><em>2009-2010</em></p>
+                </div>
+
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Ahmad Nazem</h6>
+                    <p class="other-people-info"><em>Past: Undergrad Student</em></p>
+                    <p class="other-people-info"><em>2009-2010</em></p>
+                </div>
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Danielle Richardson</h6>
+                    <p class="other-people-info"><em>Past: Undergrad Student</em></p>
+                    <p class="other-people-info"><em>2009-2010</em></p>
+                </div>
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Kelly Lottman</h6>
+                    <p class="other-people-info"><em>Past: Undergrad Student</em></p>
+                    <p class="other-people-info"><em>2009-2010</em></p>
+                </div>
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Lucy Greetham</h6>
+                    <p class="other-people-info"><em>Past: Undergrad Student</em></p>
+                    <p class="other-people-info"><em>2009-2010</em></p>
+                </div>
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Roshni Naidu</h6>
+                    <p class="other-people-info"><em>Past: Undergrad Student</em></p>
+                    <p class="other-people-info"><em>2008-2010</em></p>
+                </div>
+
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Meredith Eger</h6>
+                    <p class="other-people-info"><em>Past: Undergrad Student</em></p>
+                    <p class="other-people-info"><em>2008-2009</em></p>
+                </div>
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">David Ban</h6>
+                    <p class="other-people-info"><em>Past: Undergrad Student</em></p>
+                    <p class="other-people-info"><em>2008-2009</em></p>
+                </div>
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Chenhui Yao</h6>
+                    <p class="other-people-info"><em>Past: Undergrad Student</em></p>
+                    <p class="other-people-info"><em>2007-2008</em></p>
+                </div>
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Aria Bryan</h6>
+                    <p class="other-people-info"><em>Past: Undergrad Student</em></p>
+                    <p class="other-people-info"><em>2007-2010</em></p>
+                </div>
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Alexina Haynes</h6>
+                    <p class="other-people-info"><em>Past: Undergrad Student</em></p>
+                    <p class="other-people-info"><em>2007</em></p>
+                </div>
+
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Abderahmane Benghanem</h6>
+                    <p class="other-people-info"><em>Past: Undergrad Student</em></p>
+                    <p class="other-people-info"><em>2005</em></p>
+                </div>
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Teresa Burton</h6>
+                    <p class="other-people-info"><em>Past: Undergrad Student</em></p>
+                    <p class="other-people-info"><em>2005-2007</em></p>
+                </div>
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">Alice Hsu</h6>
+                    <p class="other-people-info"><em>Past: Undergrad Student</em></p>
+                    <p class="other-people-info"><em>2005-2007</em></p>
+                </div>
+            </div>
+            <!-- Past Rotation Students -->
+            <h5 class="header-quicksand" style="margin-top: 30px;">Past Rotation Students</h5>
+            <div class="row">
+                <div class="col-md-2 other-people-container">
+                    <img src="images/user_icon.jpg" class="person-img-rounded" />
+                    <h6 style="margin-top: 10px; margin-bottom: 2px;">William Fall</h6>
+                    <p class="other-people-info"><em>Past: Rotation Student</em></p>
+                    <p class="other-people-info"><em>2019</em></p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+        function hamburgerFunction() {
+            var x = document.getElementById("navLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
