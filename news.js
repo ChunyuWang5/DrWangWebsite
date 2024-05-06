@@ -1,6 +1,16 @@
 var data = {
   news: [
     {
+      title:
+        "Professor Wang was elected to the American Association for the Advancement Science (AAAS) on RPI News!",
+      date: "4/29/2024",
+      img_src: "",
+      description:
+        "RPI News highlights Professor Wang and 2 other RPI faculty honores by the AAAS.",
+      read_more:
+        "https://news.rpi.edu/2024/04/29/three-rensselaer-polytechnic-institute-faculty-members-honored-aaas",
+    },
+    {
       title: "Dylan's ApoE paper featured on SciTechDaily!",
       date: "7/24/2023",
       img_src: "",
@@ -10,8 +20,7 @@ var data = {
         "https://scitechdaily.com/new-potential-drug-target-for-alzheimers-disease-discovered/",
     },
     {
-      title:
-        "Dylan's ApoE paper featured on RPI News!",
+      title: "Dylan's ApoE paper featured on RPI News!",
       date: "5/24/2023",
       img_src: "",
       description:
@@ -20,8 +29,7 @@ var data = {
         "https://news.rpi.edu/content/2023/05/24/rensselaer-researchers-find-new-potential-drug-target-alzheimer%E2%80%99s-disease",
     },
     {
-      title:
-        "Our EDG grant featured on RPI News!",
+      title: "Our EDG grant featured on RPI News!",
       date: "9/29/2022",
       img_src: "",
       description:
