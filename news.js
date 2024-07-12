@@ -2,7 +2,17 @@ var data = {
   news: [
     {
       title:
-        "Professor Wang was elected to the American Association for the Advancement Science (AAAS) on RPI News!",
+        "ApoE R01 grant featured on RPI news",
+      date: "7/12/2024",
+      img_src: "",
+      description:
+        "RPI News highlights the new grant awarded to Dr. Wang from National Institute of Aging",
+      read_more:
+        "https://news.rpi.edu/2024/06/18/rensselaer-professor-receives-37-million-grant-alzheimers-disease-research",
+    },
+    {
+      title:
+        "Professor Wang was elected as an fellow of the American Association for the Advancement Science (AAAS)",
       date: "4/29/2024",
       img_src: "",
       description:
