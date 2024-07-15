@@ -6,7 +6,7 @@ var data = {
       date: "7/12/2024",
       img_src: "",
       description:
-        "RPI News highlights the new grant awarded to Dr. Wang from National Institute of Aging",
+        "RPI News highlights the new grant awarded to Dr. Wang from National Institute of Aging.",
       read_more:
         "https://news.rpi.edu/2024/06/18/rensselaer-professor-receives-37-million-grant-alzheimers-disease-research",
     },
