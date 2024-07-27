@@ -12,7 +12,7 @@ var data = {
     },
     {
       title:
-        "Professor Wang was elected as an fellow of the American Association for the Advancement Science (AAAS)",
+        "Professor Wang was elected fellow of the American Association for the Advancement Science (AAAS)",
       date: "4/29/2024",
       img_src: "",
       description:
