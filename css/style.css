@@ -254,11 +254,9 @@ body {
 }
 
 .portrait-img {
-  width: 18vw;
+  max-width: 500px;
+  width: 85%;
   height: auto;
-  max-width: 200px;
-  /* width: 200px; */
-  /* height: 280px; */
 }
 
 .no-space {
@@ -812,12 +810,13 @@ body {
 }
 
 .person-title {
-  font-family: "Quicksand", sans-serif;
   font-size: 4vw;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 25px;
   margin-bottom: 25px;
   background-color: #ddd;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .person-row {
@@ -828,8 +827,12 @@ body {
   font-size: 3vw;
 }
 
-.person-row h6 {
-  font-size: 1.75vw;
+.person-row p {
+  text-align: justify;
+}
+
+.person-row img {
+  height: auto;
 }
 
 @media only screen and (max-width: 768px) {
@@ -851,11 +854,6 @@ body {
     width: 100vw;
     padding: 10px;
     margin: 20px auto;
-  }
-
-  .wang-photo {
-    text-align: center;
-    margin-bottom: 10px;
   }
 
   .banner-img {
@@ -946,4 +944,18 @@ body {
   .person-row h6 {
     font-size: 4vw;
   }
+}
+
+.hidden-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.hidden-link:hover {
+  color: inherit;
+}
+
+.right-text {
+  text-align-last: right;
+  text-align: justify;
 }
