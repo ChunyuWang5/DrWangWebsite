@@ -1,8 +1,16 @@
 var data = {
   news: [
     {
-      title:
-        "ApoE R01 grant featured on RPI news",
+      title: "Dr. Wang speaks about Alzheimer's at EMPAC event on RPI news",
+      date: "7/12/2024",
+      img_src: "",
+      description:
+        "‘Storytelling and Memory’ features music inspired by Alzheimer’s Disease and a short discussion featuring Dr. Wang",
+      read_more:
+        "https://news.rpi.edu/2024/07/22/tanglewood-music-centers-fromm-quartet-perform-empac-rpi",
+    },
+    {
+      title: "ApoE R01 grant featured on RPI news",
       date: "7/12/2024",
       img_src: "",
       description:
