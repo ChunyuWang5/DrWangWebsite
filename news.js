@@ -1,8 +1,17 @@
 var data = {
   news: [
     {
+      title: "Tanglewood tunes tap into memory at RPI's Alzheimer's event",
+      date: "7/31/2024",
+      img_src: "",
+      description:
+        "Tanglewood Music Center’s Fromm Quartet will be playing at EMPAC with a discussion on Alzheimer's by Profesor Wang",
+      read_more:
+        "https://cbs6albany.com/news/wellness-wakeup/tanglewood-tunes-tap-into-memory-at-rpis-alzheimers-event",
+    },
+    {
       title: "Dr. Wang speaks about Alzheimer's at EMPAC event on RPI news",
-      date: "7/12/2024",
+      date: "7/18/2024",
       img_src: "",
       description:
         "‘Storytelling and Memory’ features music inspired by Alzheimer’s Disease and a short discussion featuring Dr. Wang",
