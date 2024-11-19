@@ -1,11 +1,20 @@
 var data = {
   news: [
     {
+      title: "RPI news about Dr. Wang's T32 and R25 in training students in Alzheimer's research and commercialization",
+      date: "10/21/2024",
+      img_src: "",
+      description:
+        "RPI Alzheimer’s Disease Research Program Gets Multimillion-Dollar Boost with Professor Wang's T32 and R25 grants funded by NIA",
+      read_more:
+        "https://news.rpi.edu/2024/10/21/rpi-alzheimers-disease-research-program-gets-multimillion-dollar-boost",
+    },
+    {
       title: "Tanglewood tunes tap into memory at RPI's Alzheimer's event",
       date: "7/31/2024",
       img_src: "",
       description:
-        "Tanglewood Music Center’s Fromm Quartet will be playing at EMPAC with a discussion on Alzheimer's by Profesor Wang",
+        "Tanglewood Music Center’s Fromm Quartet will be playing at EMPAC with a discussion on Alzheimer's by Professor Wang",
       read_more:
         "https://cbs6albany.com/news/wellness-wakeup/tanglewood-tunes-tap-into-memory-at-rpis-alzheimers-event",
     },
